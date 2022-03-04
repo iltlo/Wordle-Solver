@@ -25,7 +25,7 @@ void getResult(string attempt, string result, char (&exactpo)[5], vector< vector
     for (it = mymap.begin(); it != mymap.end(); it++){
         if (it->second > 1){ //if the map repeats
             rptMpChar = it->first[0]; //get the repeated attempt char
-            ylDupe.push_back(rptMpChar);
+            if (it->first[1]=='y') ylDupe.push_back(rptMpChar);
         }
     }
     

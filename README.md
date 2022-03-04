@@ -5,7 +5,7 @@
 
 ### How to use the program?
 - Your word attempt and the corresponding result are the inputs of this WORDLE solver.
-- Result 🟩: g   🟨:y  ⬛:b
+- Result 🟩:g   🟨:y  ⬛:b
 - For example after attempt, if the result shown is: 🟨⬛⬛🟩⬛, your input would be: ybbgb (without spacing).
 - Suggestion words will be immediately shown.
 - You will be repeatedly prompted for attempt-result input until result: "ggggg" is input, which idicates the WORDLE puzzle is solved with 🟩🟩🟩🟩🟩.
